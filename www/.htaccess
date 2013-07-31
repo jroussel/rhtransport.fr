@@ -1,0 +1,5 @@
+SetEnv PHP_VER 5_TEST
+SetEnv REGISTER_GLOBALS 0
+
+RewriteEngine on
+RewriteRule ^(([^\.]*)(\.html)?)?$ /index.php?template=$2 [L]
