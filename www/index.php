@@ -1,5 +1,7 @@
 <?php
 
+$email = 'contact@rhtransport.fr';
+
 $template = !empty($_REQUEST['template'])?$_REQUEST['template']:'index';
 
 $root = dirname(__FILE__) . '/..';

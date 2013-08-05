@@ -8,5 +8,5 @@ La gestion externalisée de la mission sociale chez RH Transport est tissée par
 	<li>Édition des relevés individuels, de la liste des réductions Fillon, des certificats de travail et des reçus pour solde de tout compte</li>
 	<li>Sortie des attestations obligatoires (accident de travail, maladie-maternité, Pôle Emploi…)</li>
 </ul>
-<h2>Envie d'un coupe de ciseaux dans vos charges ?</h2>
+<h2>Envie d'un coup de ciseaux dans vos charges ?</h2>
 Consultez-nous également pour l'optimisation de vos charges (récupération de trop-payés aux caisses).

@@ -7,6 +7,7 @@ body{
 	width:100%;
 	position: relative;
 	background : url("../images/bg.png") no-repeat;
+	background-color: #b1b1b1;
 }
 
 h2 {
@@ -32,7 +33,7 @@ ul {
 ul li {
 	list-style: none;
 	margin: 0;
-	padding: 0 0 0 11px;
+	padding: 0 0 5px 11px;
 	background : url("../images/bullet.png") no-repeat scroll 0 5px transparent;
 }
 
@@ -104,7 +105,7 @@ div#left p.sub-title {
 	margin-top: 3px;
 }
 div#left h2 {
-	margin-top: 25px;
+	margin-top: 20px;
 }
 
 div#right {
@@ -144,7 +145,7 @@ section.extranet-content {
 	height: 175px;
 	background : url("../images/extranet.png") no-repeat 280px 30px;
 	position: relative;
-	top: -180px;
+	top: -185px;
 	padding: 20px;
 }
 section.extranet-content ul {
@@ -155,6 +156,7 @@ section.download {
 	width: 470px;
 	height: 175px;
 	margin-top: -205px;
+	background : url("../images/shirt.png") no-repeat 35px 2px;
 	background-color: #ffffff;
 	opacity: 0.6;
 }

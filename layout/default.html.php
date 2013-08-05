@@ -29,7 +29,7 @@
 					</ul>
 					<ul class="button">
 						<li>05 63 63 00 32</li>
-						<li><a href="mailto:contact@rhtransport.fr">contact@rhtransport.fr</a></li>
+						<li><a href="mailto:<?php echo $email ?>"><?php echo $email ?></a></li>
 					</ul>
 				</section>
 				<section class="extranet"></section>
@@ -41,17 +41,17 @@
 						<li>Notification dès que vos bulletins sont prêts</li>
 					</ul>
 					<ul class="button">
-						<li><a href="#">Accédez à l'espace client</a></li>
+						<li><a href="https://explorateur.rhtransport.fr/" target="_blank">Accédez à l'espace client</a></li>
 					</ul>
 				</section>
 				<section class="download"></section>
 				<section class="download-content">
 					<ul class="button">
-						<li><a href="#">Téléchargez la plaquette</a></li>
+						<li><a href="/RH-Plaquette-WEB.pdf" target="_blank">Téléchargez la plaquette</a></li>
 					</ul>
 				</section>
 			</div>
-			<footer>&copy; <?php echo date('Y') ?> - RH Transport - <a href="/mentions-legales.html">Mentions légales</a> - RH TRANSPORT - 27 imp. Georges Herment - 82000 Montauban - T. 05 63 63 00 32 - Fax. 01 70 38 43 66 - <a href="mailto:contact@rhtransport.fr">contact@rhtransport.fr</a></footer>
+			<footer>&copy; <?php echo date('Y') ?> - RH Transport - <a href="/mentions-legales.html">Mentions légales</a> - RH TRANSPORT - 27 imp. Georges Herment - 82000 Montauban - T. 05 63 63 00 32 - Fax. 01 70 38 43 66 - <a href="mailto:<?php echo $email ?>"><?php echo $email ?></a></footer>
 		</div>
 	</body>
 </html>
