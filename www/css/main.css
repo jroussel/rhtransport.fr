@@ -3,7 +3,7 @@
 body{
 	margin:0;
 	color:#6e6e6e;
-	font:12px/20px Arial, Helvetica, sans-serif;
+	font:12px Trebuchet, sans-serif;
 	width:100%;
 	position: relative;
 	background : url("../images/bg.png") no-repeat;
@@ -12,6 +12,8 @@ body{
 h2 {
 	text-transform: uppercase;
 	color: #e10018;
+	font-size: 13px;
+	font-weight: bold;
 }
 
 a {
@@ -59,12 +61,17 @@ header div.title {
 	float: right;
 	clear: right;
 	color: #ffffff;
+	font-size: 16px;
+	font-weight: bold;
+	margin-top: 25px;
 }
 header div.sub-title {
 	float: right;
 	clear: right;
 	color: #ffffff;
 	border-top: 1px solid #ef7f8b;
+	margin-top: 5px;
+	padding-top: 5px;
 }
 
 div#content {
@@ -77,19 +84,27 @@ div#content {
 div#left {
 	float: left;
 	width: 430px;
-	height: 375px;
+	height: 335px;
 	background : url("../images/truck.png") no-repeat 25px 25px;
 	background-color: #ffffff;
-	padding: 240px 25px 25px 25px;
+	padding: 230px 25px 25px 25px;
 	margin-top: 10px;
 }
 
 div#left p.title {
 	color: #e10018;
+	font-size: 14px;
+	margin-bottom: 2px;
 }
 div#left p.sub-title {
 	text-transform: uppercase;
 	color: #e10018;
+	font-size: 14px;
+	font-weight: bold;
+	margin-top: 3px;
+}
+div#left h2 {
+	margin-top: 25px;
 }
 
 div#right {
@@ -108,51 +123,61 @@ section.contact {
 section.contact-content {
 	width: 470px;
 	height: 220px;
-	background : url("../images/contact.png") no-repeat 280px 25px;
+	background : url("../images/contact.png") no-repeat 280px 30px;
 	position: relative;
 	top: -230px;
-	padding: 20px;
+	padding: 25px;
+}
+section.contact-content p, section.contact-content ul {
+	width: 246px;
 }
 
 section.extranet {
 	width: 470px;
 	height: 175px;
-	margin-top: -225px;
+	margin-top: -260px;
 	background-color: #ffffff;
 	opacity: 0.6;
 }
 section.extranet-content {
 	width: 470px;
 	height: 175px;
-	background : url("../images/extranet.png") no-repeat 280px 25px;
+	background : url("../images/extranet.png") no-repeat 280px 30px;
 	position: relative;
-	top: -185px;
+	top: -180px;
 	padding: 20px;
+}
+section.extranet-content ul {
+	width: 246px;
 }
 
 section.download {
 	width: 470px;
 	height: 175px;
-	margin-top: -180px;
+	margin-top: -205px;
 	background-color: #ffffff;
 	opacity: 0.6;
 }
 section.download-content {
 	width: 470px;
-	height: 175px;
+	height: 160px;
 	background : url("../images/download.png") no-repeat 280px 25px;
 	position: relative;
-	top: -185px;
+	top: -180px;
 	padding: 20px;
+}
+section.download-content ul {
+	margin-top: 60px;
 }
 
 ul.button {
 	list-style-type: none;
 }
 ul.button li {
-	height: 25px;
+	height: 15px;
 	background-color: #e10018;
 	color: #ffffff;
+	font-weight: bold;
 	font-style: italic;
 	padding: 5px;
 	float: left;
@@ -169,4 +194,9 @@ ul.button li a:hover {
 
 footer {
 	clear: both;
+	width: 960px;
+	text-align: right;
+	font-size: 9px;
+	color: #6e6e6e;
+	padding-top: 15px;
 }

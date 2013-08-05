@@ -22,7 +22,7 @@
 				<section class="contact"></section>
 				<section class="contact-content">
 					<h2>Contactez-nous !</h2>
-					RH Transport vous dédie l'un de ses experts de la paye transport.
+					<p>RH Transport vous dédie l'un de ses experts de la paye transport.</p>
 					<ul>
 						<li>En veille permanente des modifications réglementaires qui vous impactent</li>
 						<li>En prise directe avec les caisses sociales et syndicats patronaux</li>
@@ -41,13 +41,13 @@
 						<li>Notification dès que vos bulletins sont prêts</li>
 					</ul>
 					<ul class="button">
-						<li><a href="#" target="_blank">Accédez à l'espace client</a></li>
+						<li><a href="#">Accédez à l'espace client</a></li>
 					</ul>
 				</section>
 				<section class="download"></section>
 				<section class="download-content">
 					<ul class="button">
-						<li><a href="#" target="_blank">Téléchargez la plaquette</a></li>
+						<li><a href="#">Téléchargez la plaquette</a></li>
 					</ul>
 				</section>
 			</div>
