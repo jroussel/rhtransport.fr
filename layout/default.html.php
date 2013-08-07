@@ -4,7 +4,9 @@
 		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
 		<link rel="icon" href="/favicon.ico" />
 		<link type="text/css" rel="stylesheet" href="/css/main.css" />
-		<title>RH Transport</title>
+		<title>RH Transport : la paye sous toutes ses coutures</title>
+		<meta name="Description" content="Cabinet d'expertise sociale, spécialiste des métiers du transport. Chez nous, le sur-mesure c'est standard ! Bénéficiez d'un interlocuteur qui vous conseille personnellement et de manière proactive." />
+		<meta name="Keywords" content="comptabilité, paye, transport, expertise" />
 	</head>
 	<body>
 		<header>
@@ -53,5 +55,15 @@
 			</div>
 			<footer>&copy; <?php echo date('Y') ?> - RH Transport - <a href="/mentions-legales.html">Mentions légales</a> - RH TRANSPORT - 27 imp. Georges Herment - 82000 Montauban - T. 05 63 63 00 32 - Fax. 01 70 38 43 66 - <a href="mailto:<?php echo $email ?>"><?php echo $email ?></a></footer>
 		</div>
+		<script>
+			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+			m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+			})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+			ga('create', 'UA-43041871-1', 'rhtransport.fr');
+			ga('send', 'pageview');
+
+		</script>
 	</body>
 </html>
