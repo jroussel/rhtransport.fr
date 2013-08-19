@@ -40,7 +40,7 @@
 					<ul>
 						<li>Récupération des données sociales par le canal de votre choix</li>
 						<li>Stockage et sauvegarde des documents</li>
-						<li>Notification dès que vos bulletins sont prêts</li>
+						<li>Notification de mise à disposition de vos bulletins/documents</li>
 					</ul>
 					<ul class="button">
 						<li><a href="https://explorateur.rhtransport.fr/" target="_blank">Accédez à l'espace client</a></li>
