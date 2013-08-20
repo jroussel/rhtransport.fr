@@ -5,9 +5,9 @@ body{
 	color:#6e6e6e;
 	font:12px Trebuchet, sans-serif;
 	width:100%;
-	position: relative;
 	background : url("../images/bg.png") no-repeat;
 	background-color: #b1b1b1;
+	background-position-x: center;
 }
 
 h2 {
